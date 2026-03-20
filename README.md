@@ -6,3 +6,8 @@
 ## Backup option
 
 TBD
+
+
+```
+source /home/dokt/majewski/Public/mlenv204aisec/activate.sh
+```
