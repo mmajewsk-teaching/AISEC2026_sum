@@ -18,3 +18,15 @@ cuda = { version = "*", channel = "nvidia/label/cuda-11.8.0" }
 pytorch = { version = "*", channel = "pytorch" }
 torchvision = { version = "*", channel = "pytorch" }
 pytorch-cuda = { version = "11.8.*", channel = "pytorch" }
+
+# Scientific Python stack
+matplotlib = "*"
+pillow = "*"
+numpy = "*"
+tqdm = "*"
+scikit-learn = "*"
+transformers = "*"
+
+# Jupyter
+jupyterlab = "*"
+jupytext = "*"
