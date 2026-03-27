@@ -1,0 +1,3 @@
+FROM ./nomic-embed-text-v1.5.f16.gguf
+TEMPLATE {{ .Prompt }}
+PARAMETER num_ctx 8192
