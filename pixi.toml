@@ -30,3 +30,13 @@ transformers = "*"
 # Jupyter
 jupyterlab = "*"
 jupytext = "*"
+
+# NLP / retrieval stack
+nltk = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-ollama = "*"
+langgraph = "*"
+
+[pypi-dependencies]
+sqlite-vec = "*"
