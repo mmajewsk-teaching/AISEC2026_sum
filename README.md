@@ -9,5 +9,5 @@ TBD
 
 
 ```
-source /home/dokt/majewski/Public/mlenv204aisec/activate.sh
+source /home/dokt/majewski/Public/mlenv204aisec2/activate.sh
 ```
