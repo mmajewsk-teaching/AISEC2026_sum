@@ -19,7 +19,12 @@ cosine_similarity = lambda ...
 
 
 def retrieve_chunks(query_embedding, chunk_embeddings, chunks, top_k=3):
-    ...
+    similarities = []
+    for idx, chunk_embedding in enumerate(chunk_embeddings):
+        score = cosine_similarity(query_embedding, chunk_embedding)
+        similarities.append((idx, score, chunks[idx]))
+    similarities.sort(key=lambda item: item[1], reverse=True)
+    return similarities[:top_k]
 
 
 if __name__ == "__main__":
