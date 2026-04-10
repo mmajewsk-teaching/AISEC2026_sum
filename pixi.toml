@@ -38,5 +38,14 @@ langchain-community = "*"
 langchain-ollama = "*"
 langgraph = "*"
 
+# Lab4 (game server + runner + student task)
+fastapi = "*"
+uvicorn = "*"
+sqlalchemy = ">=2.0"
+pydantic = "*"
+requests = "*"
+httpx = "*"
+loguru = "*"
+
 [pypi-dependencies]
 sqlite-vec = "*"
